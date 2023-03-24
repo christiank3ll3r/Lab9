@@ -1,0 +1,41 @@
+cd ["s23wa46keller"]
+npx express-generator --view=pug --git
+npm init
+npm install
+npm outdated
+npm install xxxx@latest yyy@latest ...
+npm outdated
+ls -al
+less package.json
+
+
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+# Coveralls
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# ignore additional files using core.excludesFile
+# https://git-scm.com/docs/gitignore
+
+
+
+pwd
+git init
+git status
+git add .
+git status
+git commit -m “use a good message”
+git status
+git remote add origin ["https://github.com/christiank3ll3r/Lab9"]
+git branch -M main
+git push -u origin main
+git pull origin
